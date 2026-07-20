@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
 from langchain.tools import tool  # 使用 @tool 装饰器
@@ -8,7 +9,7 @@ import requests
 # 1. 初始化模型
 llm = ChatOpenAI(
     model="glm-4-flash",
-    openai_api_key="os.getenv("ZHIPU_API_KEY")",  # 改成你的
+    openai_api_key=os.getenv("ZHIPU_API_KEY"),  # 改成你的
     base_url="https://open.bigmodel.cn/api/paas/v4",
     temperature=0.7
 )
