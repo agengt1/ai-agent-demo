@@ -35,4 +35,5 @@ pip install langchain langchain-openai streamlit requests
 bash
 streamlit run agent_web.py
 5.结果展示
-<img width="1175" height="524" alt="a502bf7b-6c77-4c51-a95a-65e84da99f95" src="https://github.com/user-attachments/assets/9ecf6bdd-974e-458a-88f2-cb28e8eb3db0" />
+<img width="1175" height="524" alt="结果" src="https://github.com/user-attachments/assets/ed5dcf03-a8ec-46d5-8c0f-b7af5c906b6c" />
+
