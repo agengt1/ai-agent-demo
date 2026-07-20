@@ -8,7 +8,7 @@ import requests
 # 1. 初始化模型
 llm = ChatOpenAI(
     model="glm-4-flash",
-    openai_api_key="48342d9cc3a74484884e8d5c97752f77.6MPxzYK0O6HTKcw8",  # 改成你的
+    openai_api_key="os.getenv("ZHIPU_API_KEY")",  # 改成你的
     base_url="https://open.bigmodel.cn/api/paas/v4",
     temperature=0.7
 )
